@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        
+        <h1>My FlashCards</h1>
+        <h4><img src="mylogoo.PNG" alt="My Flashcard Logo"></h4>
+        <div class="button-container">
+        <button id="home">HOME</button>
+      
+    </div>
+    </header>
+    <main>
+        <div class="image-container">
+            <img src="nighttt.png" alt="My FlashCards">
+            <div class="image-text">Organize and<br> Study Smarter!</div>
+           
+        </div>
+        <div class="controls">
+            <h6>Your Sets</h6>
+            <input type="text" id="search" placeholder="🔍| Search" autocomplete="off">
+            <button id="add-set">+ Add Set</button>
+            <input type="file" id="import-file" accept=".json" style="display: none;">
+            <button id="import">📂 Import Set</button>
+            <button id="export">📤 Export Set</button>
+        </div>
+        <div id="sets-container">
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <footer class="footer">
+        <p>&copy; 2025 Reden Mar Fernando| My Flashcard.</p>
+    </footer>
+</body>
+</html>
